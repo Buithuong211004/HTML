@@ -1,0 +1,97 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.green {
+    border: 1px solid green;
+}
+
+.banner {
+    height: 500px;
+    background: url('./banner.jpg') center center no-repeat;
+    padding: 20px;
+
+}
+
+.about-sign-in {
+    height: 80px;
+    width: 100%;
+    text-align: right;
+
+}
+
+.signin,
+.about {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 7px 15px;
+    text-transform: uppercase;
+
+}
+
+.signin {
+    margin-right: 60px;
+    margin-left: 25px;
+    border: 2px solid green;
+    border-radius: 20px;
+}
+
+.logo {
+    background: url('./hapoERP.png') center center no-repeat;
+    margin-top: 40px;
+    height: 100px;
+}
+
+.text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn-start-now {
+    text-align: center;
+}
+
+.banner .btn-start-now button {
+    text-transform: uppercase;
+    border: 1px solid green;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.content-center {
+    height: 50px;
+    border: 1px solid red;
+    margin-top: 25px;
+}
+
+.left,
+.center,
+.right {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    /* lấy chiều rộng của cha để chia cho con*/
+}
+
+.content-center span {
+    display: block;
+    font-size: 30px;
+
+}
+
+.text span {
+    font-size: 20px;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
